@@ -1,6 +1,4 @@
 def bsearch(nums, target)
-  # require 'byebug'
-  # byebug
   return nil if nums.empty?
   probe_index = nums.length / 2
   case target <=> nums[probe_index]
